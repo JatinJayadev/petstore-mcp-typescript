@@ -1,0 +1,676 @@
+lockVersion: 2.0.0
+id: a1400a01-cd32-4fb6-a263-f11b32e3f055
+management:
+  docChecksum: 0eae337063bfa4e92e8a0df2cfee51e3
+  docVersion: 1.0.0
+  speakeasyVersion: 1.761.1
+  generationVersion: 2.879.6
+  releaseVersion: 0.1.0
+  configChecksum: 6363d0290320d6b5ad1ce1d423e50676
+persistentEdits:
+  generation_id: 93703566-0956-4424-983e-90009990c32a
+  pristine_commit_hash: 1bebfa0218ba865fc8892d656d23299c124a5452
+  pristine_tree_hash: 89aaf07a2ef4d08d51b51452b0d4a2c562d97450
+features:
+  mcp-typescript:
+    additionalDependencies: 0.1.0
+    constsAndDefaults: 0.1.2
+    core: 1.2.24
+    defaultEnabledRetries: 0.1.0
+    enumUnions: 0.1.0
+    globalSecurity: 0.1.3
+    globalSecurityCallbacks: 0.0.0
+    globalServerURLs: 0.1.2
+    nameOverrides: 0.1.2
+    responseFormat: 0.1.1
+    retries: 0.1.0
+    sdkHooks: 0.3.0
+trackedFiles:
+  .dxtignore:
+    id: 0ee1c4f92736
+    last_write_checksum: sha1:0cbab1b303d9060f6324f6a9cddabe13c2cfa7c9
+    pristine_git_object: 21eeace1d85822ffb013f6c0667a19f35c33cee0
+  .gitattributes:
+    id: 24139dae6567
+    last_write_checksum: sha1:26d16d8297b104945139da8c25bd38feeaad3e25
+    pristine_git_object: 113eead5093c17d43a46159132885318f281a68a
+  .npmignore:
+    id: aa70c1f807c3
+    last_write_checksum: sha1:aa14435f0c166ebc0edbf1ae6f65128e33dc8c97
+    pristine_git_object: 0bc901db2a899e4b8f0bdcbea7fd547ef18e2fd9
+  eslint.config.mjs:
+    id: 461c8d07f6da
+    last_write_checksum: sha1:576025302d3d8650f37276bc9075f6ade3842cc7
+    pristine_git_object: 4f9e60a9462fc4def738d60c3aaadf8232ef185f
+  manifest.json:
+    id: ca642a226869
+    last_write_checksum: sha1:30eaad2bb802cde80049bfa175ddbac190b74af4
+    pristine_git_object: 5aba6eb37f49207aed4560ebc07a7a3d1b5969fb
+  package.json:
+    id: 7030d0b2f71b
+    last_write_checksum: sha1:46112b0fd37fd1ecb70b8d9a7dbf115a18dd557e
+    pristine_git_object: 74750a50cc72847ca05fac4a577fd560f101076f
+  src/core.ts:
+    id: f431fdbcd144
+    last_write_checksum: sha1:d6a837f6980c9001ce7bd0c29122310de99d7da3
+    pristine_git_object: 7d2eb4259445d2d865779fa924acfb3c9c636adb
+  src/funcs/petsAdd.ts:
+    id: 99d9a617852f
+    last_write_checksum: sha1:a5b23e1887570f093295080a4ba39d92ac7c8d52
+    pristine_git_object: c3da95f8d419971efb3a3e97ace8e991be61ff44
+  src/funcs/petsDelete.ts:
+    id: b151cdaa0f81
+    last_write_checksum: sha1:c5855059d5700026878212e0c48b390c7049683b
+    pristine_git_object: ab72020566f2a183a40be5b645280767789e72d3
+  src/funcs/petsFindByStatus.ts:
+    id: 15f39e2db1ac
+    last_write_checksum: sha1:8262751e825f4e77731c20c1e6274683a653177d
+    pristine_git_object: bde6e33f481187ae1be6d9c3c567a39895a1be01
+  src/funcs/petsFindByTags.ts:
+    id: 9c3e7993614c
+    last_write_checksum: sha1:38181f0e52b12b352447d1b8edb19cc03683dbbf
+    pristine_git_object: 2c851065572f1d61deab22dd9e8461c7663cbf83
+  src/funcs/petsGetById.ts:
+    id: 244197a27cd7
+    last_write_checksum: sha1:d5ba0fb1da7087ee29e8d40d822b92eb6de6b074
+    pristine_git_object: 2897f7e319c3c887f47f4470119bb15078c564a6
+  src/funcs/petsUpdate.ts:
+    id: 213a7839a86f
+    last_write_checksum: sha1:26191f10869e922060babe8c0be56c452bc1a433
+    pristine_git_object: 46e3d5edcbd736f08358bae0877b0cbd31650cc0
+  src/funcs/petsUploadImage.ts:
+    id: 6cc7014410d6
+    last_write_checksum: sha1:133cb8ccc603565487bf2633ba367ee3b5513cce
+    pristine_git_object: 839967fcd6968aaf5fcbd97f4835ef475186f7c6
+  src/funcs/storeOrdersDelete.ts:
+    id: 126fd0d0b4aa
+    last_write_checksum: sha1:5749e8bc71220845e1f41704db150e0e9e58aa3a
+    pristine_git_object: c7b03c6e1e4163f4d2a1e71a8ccc71e2a6c52a6a
+  src/funcs/storesGetInventory.ts:
+    id: 9edfb1d83efd
+    last_write_checksum: sha1:03d26339aa85e2ffc38aa3732e3cb5de286649e3
+    pristine_git_object: 60f09970e5315247d1ed6a281d5951da0d95d3c4
+  src/funcs/storesOrdersGetById.ts:
+    id: bd559a9baeb9
+    last_write_checksum: sha1:768fdde4b721a7288083c6e04810ba1d5ab45e41
+    pristine_git_object: b1bd9de7ff244c2c33122ef700174bee98aff9f5
+  src/funcs/storesOrdersPlace.ts:
+    id: 587c103780af
+    last_write_checksum: sha1:87bc46e2b0a95ad4c53d8a3d5582139fd7f69b55
+    pristine_git_object: b415ebc252a547d3381e28470d6fb70b808ef862
+  src/funcs/usersCreate.ts:
+    id: 203d6183a83e
+    last_write_checksum: sha1:118a6fed54d1d66bde2956afd41e64a907e94704
+    pristine_git_object: bae6e0fffcb143c0dd7ee802af57b46d088cdf71
+  src/funcs/usersCreateWithList.ts:
+    id: 1a8377e49fc0
+    last_write_checksum: sha1:cac5bbbf57a7b2580b3d4c8c4758fe978b8a3ded
+    pristine_git_object: 9a3d4401ea3eb1f81e1a266f4043b9026f49e6b6
+  src/funcs/usersDelete.ts:
+    id: e6eeab86a549
+    last_write_checksum: sha1:ebb8ca7690b22b668a45afe4d0e73fa36b5b884e
+    pristine_git_object: 4cb6aa5eec92abd95e716b13ff79c4fa433f45f8
+  src/funcs/usersGetByName.ts:
+    id: 7b3597000fa5
+    last_write_checksum: sha1:7e9e2a3d4c95f9d99236dc64def370e0158c72a1
+    pristine_git_object: e2aac5b9b147e656d62efdaf2b034c2ac4e0cb42
+  src/funcs/usersLogin.ts:
+    id: 67ad1b258574
+    last_write_checksum: sha1:b9892498a885b702165173b608372c3cc9b7f0c8
+    pristine_git_object: 517bbca12a20aa3190df37ca1c5ef638fe79e6f9
+  src/funcs/usersLogout.ts:
+    id: 6f47899ce6c1
+    last_write_checksum: sha1:69522094b46c83a03cbd8038ab3df17554f54ae8
+    pristine_git_object: b3f4fbdd8130a498424f572892798b404deb0c36
+  src/funcs/usersUpdate.ts:
+    id: 7ce9b12eaa7c
+    last_write_checksum: sha1:c03cbe2aa21470d327b1ed11cdcdcbce6ae55468
+    pristine_git_object: cce2644dcc92bafe43c3496c8f97e03f01cfb8c6
+  src/hooks/hooks.ts:
+    id: a2463fc6f69b
+    last_write_checksum: sha1:141e45a4b047589e6ec69eef5da26fab909f44e9
+    pristine_git_object: a4220b5e2f8fc59c2862870fc6bf2c38bd8efcff
+  src/hooks/types.ts:
+    id: 2a02d86ec24f
+    last_write_checksum: sha1:27a3444c4839bec58ae89820fd8c2483edafc3f4
+    pristine_git_object: 9c36bf01332084f735909a71036c3544cc4c7e3a
+  src/landing-page.ts:
+    id: ef64a6ee46d7
+    last_write_checksum: sha1:d02c291d270bf82dd023557724db291244c1113b
+    pristine_git_object: 191e32ae9e4419bacd0b9723f81cd709776494f6
+  src/lib/base64.ts:
+    id: "598522066688"
+    last_write_checksum: sha1:e9f04a037018040361043104960982f7c22db52d
+    pristine_git_object: d4bd8b341290e7a828a171d840bd0b0fff7c7cd7
+  src/lib/config.ts:
+    id: 320761608fb3
+    last_write_checksum: sha1:c0cb0d7b3da7ed852519f77d161283c645731df5
+    pristine_git_object: 56b8e31b45c017b292fa66ba089cd75e51c36b64
+  src/lib/dlv.ts:
+    id: b1988214835a
+    last_write_checksum: sha1:1dd3e3fbb4550c4bf31f5ef997faff355d6f3250
+    pristine_git_object: e81091f5e536f82739f71379b1fddc2d147c49e2
+  src/lib/encodings.ts:
+    id: 3bd8ead98afd
+    last_write_checksum: sha1:316fee758c650c88a20f0fe785ed55a2f198121a
+    pristine_git_object: 12f073c501c794c629f25d7125349f58b05f6e78
+  src/lib/env.ts:
+    id: c52972a3b198
+    last_write_checksum: sha1:d80ffd5cc528d8a942aad29d20f37f2659cbcc53
+    pristine_git_object: 2b1605c70aadf363363dc80f9b00cad51531a028
+  src/lib/files.ts:
+    id: e5efa54fcb95
+    last_write_checksum: sha1:795c14026405d547bfc47012f7ad9666e530fa7f
+    pristine_git_object: 6ca6b37d35a12448da176ee2517cc036db12c81c
+  src/lib/http.ts:
+    id: 63a80782d37e
+    last_write_checksum: sha1:797cbf16d3c7c4d62d3ba0eedb08617524938457
+    pristine_git_object: 13cf1fd7894a89f727b8d2db2ad24313a94f68c7
+  src/lib/is-plain-object.ts:
+    id: b9862591096a
+    last_write_checksum: sha1:df687f25a9590b6fd95d39df41a652ae3fd4e517
+    pristine_git_object: 61070d3d7c7e5e95b1ed7e7ea21869eb0767db77
+  src/lib/logger.ts:
+    id: 7ee7741a02bf
+    last_write_checksum: sha1:0ec9d3a2a34c362746b767e4f9a746c055d57a7b
+    pristine_git_object: d181f2937d4128afbe9b0327e0f81d1fa9c877b7
+  src/lib/primitives.ts:
+    id: 74859f750b28
+    last_write_checksum: sha1:d5fbb4e2feef5747fc8071046bdd4122c87bd066
+    pristine_git_object: 668ab9d500d77bee730a619c5fda4a1d3cd1d16c
+  src/lib/result.ts:
+    id: ab7a4c1c4c71
+    last_write_checksum: sha1:d24994d58f37a1ca106847fcc6d2e976c6f1c093
+    pristine_git_object: ccbe51eac69dfb0da5131f14fd753c4b47c1d527
+  src/lib/retries.ts:
+    id: b24a69d15639
+    last_write_checksum: sha1:f3da74dffcbe2756c69393f8600205aa1dc06e68
+    pristine_git_object: e3ce9aba72150fc3c18f3105d39b21aba809377b
+  src/lib/schemas.ts:
+    id: deb4b531fae1
+    last_write_checksum: sha1:7c7ba40781682f6d44bb585b5016e2527b52660e
+    pristine_git_object: 542d9972403c5bc4aa70619f8c4b0af3ef2ce679
+  src/lib/sdks.ts:
+    id: 8a6d91f1218d
+    last_write_checksum: sha1:9f20e5cf4e66a2ae86fb08b79e9d98114a1a747b
+    pristine_git_object: 299696620296d4e0525fd0321a6c005a3e007938
+  src/lib/security.ts:
+    id: 0502afa7922e
+    last_write_checksum: sha1:53834e199d4f8896796cb5741e020e7cd17f41dd
+    pristine_git_object: 69230bfe405dc187bc4060b8f80ada420cac172e
+  src/lib/url.ts:
+    id: b0057e24ed76
+    last_write_checksum: sha1:9550819577dc1e514e61496167aefcc137238aaf
+    pristine_git_object: 6bc6356e222c4f2c20fda5616e00be6dadfa80f8
+  src/mcp-server/build.mts:
+    id: f7a2ed2de4d7
+    last_write_checksum: sha1:fc08ccde7b8703a94411bb37b97ba5dd51a686db
+    pristine_git_object: 1cdf8979378936f964a3c0e6275b7e7a5689a14c
+  src/mcp-server/cli.ts:
+    id: 4ade0ef98b00
+    last_write_checksum: sha1:7331efddde881832342fa8779d23be7445d4480c
+    pristine_git_object: b878d8de9f2a0275c3cdbfdcaed48a31092e558a
+  src/mcp-server/cli/serve/command.ts:
+    id: 7cd4394c80e8
+    last_write_checksum: sha1:0ea7675b63aab25d6237fd039c6531bb9cfe9d9c
+    pristine_git_object: 18972494aca91074a1a73835c3f92e5486658a52
+  src/mcp-server/cli/serve/impl.ts:
+    id: 03e83f226068
+    last_write_checksum: sha1:6d3244926e3194fc1784c51906022907ea016e95
+    pristine_git_object: bd19824d20e4fb775673ac981eae3609f417a3ce
+  src/mcp-server/cli/start/command.ts:
+    id: b3e53408ccb4
+    last_write_checksum: sha1:715d4c3b5381e2d635017b51f92ed907380a2c83
+    pristine_git_object: dd9865e8fee995a2a1a8c30c98530b44db91238e
+  src/mcp-server/cli/start/impl.ts:
+    id: 37494f674015
+    last_write_checksum: sha1:1cd87d99944044eb1a41bddc5d34c2c5b62d7ebc
+    pristine_git_object: 812580ce069132b529465fcc350d8e87caa16a88
+  src/mcp-server/console-logger.ts:
+    id: 57aff4ff2e15
+    last_write_checksum: sha1:0c4b9b7c79ad0a81359210cb31b9ee4d887d5de1
+    pristine_git_object: 640bca96dc5acf142b0a25dedad7ffb5d55c6375
+  src/mcp-server/extensions.ts:
+    id: 3d9d20ff158f
+    last_write_checksum: sha1:27de1e2b8aaedc8965d1d4c4d4c500df1f28b483
+    pristine_git_object: 78394e413ea070824f370b829eaf1416883e6680
+  src/mcp-server/flags.ts:
+    id: 0167e624a516
+    last_write_checksum: sha1:0d474a3a433c2208237f4bdc6e19139ea08e90c9
+    pristine_git_object: 36adaaf99dd12a7354e25ceae2afa21f3826d124
+  src/mcp-server/mcp-server.ts:
+    id: aabbc4ab07c1
+    last_write_checksum: sha1:567efe3b470557548f6eacb999337311cac075d7
+    pristine_git_object: 62f0e4dc8a591d529f7e4400881c5f906504926b
+  src/mcp-server/prompts.ts:
+    id: 26f3d73cbf31
+    last_write_checksum: sha1:9c9dc5a38791828fbb95a80bc24ecb77133b8f38
+    pristine_git_object: e20d83ed73f21abb0cdd6e121bd2f788e0b04933
+  src/mcp-server/resources.ts:
+    id: cb0c57ebeaea
+    last_write_checksum: sha1:57b5efbd62c85626f3b6034ef9e0386f54bb9755
+    pristine_git_object: a18d245a74e46f47d29c5a6aa5a58538a5e98fda
+  src/mcp-server/scopes.ts:
+    id: 8966d24256b2
+    last_write_checksum: sha1:77d0eb95785e84f9fd0b27c4612f8c6470489fe4
+    pristine_git_object: c25696d4c4f70e081fa5d87ad6891874c509a577
+  src/mcp-server/server.ts:
+    id: 2784dd48e82a
+    last_write_checksum: sha1:53887db96a48812881c8c6d47ee0b98956eb0651
+    pristine_git_object: ff94bfc7a2d975c4e0e0da0d27230dc242c82125
+  src/mcp-server/shared.ts:
+    id: 074e80d4be1e
+    last_write_checksum: sha1:19c9034032819a14f15c430de4350c8aba99d725
+    pristine_git_object: bb74a74788ebd7d11262f5f63b8fdd29ab817f48
+  src/mcp-server/tools.ts:
+    id: 654d5d1f2062
+    last_write_checksum: sha1:254ec29821254ed48e377b9cd939498c55ab2177
+    pristine_git_object: 229c6f54f712c6bfb001e45d33bd749f796fc05a
+  src/mcp-server/tools/petsAdd.ts:
+    id: 25762374c9d6
+    last_write_checksum: sha1:30284102e0d5e2d6b0de9bcd4af67ef331a7834f
+    pristine_git_object: a33ac95bda11de50b5d7dbbeb7b7516ac7043a69
+  src/mcp-server/tools/petsDelete.ts:
+    id: 03d5e634b8e4
+    last_write_checksum: sha1:9bf665907f07d2cd5d03f85967029efbdc132f18
+    pristine_git_object: 4662ce245ee9d55838a2403d08317ad321cc8bf0
+  src/mcp-server/tools/petsFindByStatus.ts:
+    id: 8d465b0784c6
+    last_write_checksum: sha1:9b5064df5cf7e23fa1b07c69b05394e72810b0a5
+    pristine_git_object: 6beea674d055b65fe55349343571e4730148bc21
+  src/mcp-server/tools/petsFindByTags.ts:
+    id: 1e524f5ce76c
+    last_write_checksum: sha1:e401dfd2681cbdf278c34f6047fa892b0549d682
+    pristine_git_object: ddc4f4e7ebd7bd1318c1c5b065d76a2f27e3e96c
+  src/mcp-server/tools/petsGetById.ts:
+    id: 95a8f56036f6
+    last_write_checksum: sha1:acbd30b5a7b9763c991881bd1ab9a17da6ef3a23
+    pristine_git_object: e8b95d4d79a58be2eb14cf5cd8259ecedc5f8d14
+  src/mcp-server/tools/petsUpdate.ts:
+    id: e054b6df70ee
+    last_write_checksum: sha1:969123b85134fce7ad708ae5d3485f79ee69d7c2
+    pristine_git_object: 8257b1d53329431b34419e3cafcbba8d413cd699
+  src/mcp-server/tools/petsUploadImage.ts:
+    id: 7dd138f2f65b
+    last_write_checksum: sha1:c84d9663abdd383096576fbed087de1ef80d4d64
+    pristine_git_object: 72fb7ac573c52cd520787a7f1949547dce05cb16
+  src/mcp-server/tools/storeOrdersDelete.ts:
+    id: 39c84bde9423
+    last_write_checksum: sha1:a2db0ec828e788d0ca37077e177a071126bd3844
+    pristine_git_object: 8f33afb78eb5d8c9a60807503775266feec5446b
+  src/mcp-server/tools/storesGetInventory.ts:
+    id: c404562ce8b1
+    last_write_checksum: sha1:4842a674092377818f199352e95278ef2a24f912
+    pristine_git_object: c70c5e24b11c1637bad26b1b31c9485943c1c6d4
+  src/mcp-server/tools/storesOrdersGetById.ts:
+    id: a42c3dac7476
+    last_write_checksum: sha1:27c0fbbad7512c8f6e795d10658a1369bfa1a6c4
+    pristine_git_object: c0c27e164e2399ba203d1735e9502e7d977d28fa
+  src/mcp-server/tools/storesOrdersPlace.ts:
+    id: a1a2b112ef59
+    last_write_checksum: sha1:bde801a622badc8bab9cfa2724dea0bc863ae932
+    pristine_git_object: b6ac522eff548418333f50e17adfc1d7e2ecca9f
+  src/mcp-server/tools/usersCreate.ts:
+    id: 05b91085f02f
+    last_write_checksum: sha1:bcb83c0d38a5ddcc0e7c71f12d1570c0f6f3ec6c
+    pristine_git_object: efc794d2bad72b7b07ebf73411689b65674edccb
+  src/mcp-server/tools/usersCreateWithList.ts:
+    id: 115837ee7c71
+    last_write_checksum: sha1:8e414675513039a1f049482bee1ecfeffcb6a69c
+    pristine_git_object: 4497eab3c38acb8d8d16ff43395e67d9b52d77cc
+  src/mcp-server/tools/usersDelete.ts:
+    id: aa3dd3272e90
+    last_write_checksum: sha1:aa3371ab275f81ae7bf8e0877c07e0dd8b8aef3d
+    pristine_git_object: 8bc3168ec43748732148421d3665528bf37c2fb4
+  src/mcp-server/tools/usersGetByName.ts:
+    id: 02f95b6ab187
+    last_write_checksum: sha1:aa9968572634dde3b9de8e04cf423efaa3878f08
+    pristine_git_object: 9a4b9f2fde2ea09213b4d245e7c70e5844162381
+  src/mcp-server/tools/usersLogin.ts:
+    id: 2040cbe4cfce
+    last_write_checksum: sha1:8a3c49a84d4467b27e1e2cecccdb486cfd712bcb
+    pristine_git_object: 2e7c6ab7c8fe6a84cbb653888960f7510b28185a
+  src/mcp-server/tools/usersLogout.ts:
+    id: 58cd3c2d420b
+    last_write_checksum: sha1:f57ef832eef1f42282fe945cfb627dae3d56e186
+    pristine_git_object: a21204640a48c1d943f1d1214026db3c16a01179
+  src/mcp-server/tools/usersUpdate.ts:
+    id: 10d2a785f98d
+    last_write_checksum: sha1:ee1ee1532fd445154d8fb28f124d452f6f62146e
+    pristine_git_object: 934595fa83e6a8141410c73efc19449c3c47985a
+  src/models/apierrorinvalidinput.ts:
+    id: 5dfaf88c4dcd
+    last_write_checksum: sha1:4c8995dd4bdaade32ab727370f2408740e0d27e5
+    pristine_git_object: caaff9632d356a66ee3c456c85556c16ffdc96ac
+  src/models/apierrornotfound.ts:
+    id: 81eecb07188d
+    last_write_checksum: sha1:f3594afaed7cf36b335bbb41d29e6969581718ba
+    pristine_git_object: ec119a75accf3f7c25a7f40e194ea7b3eb6debd5
+  src/models/apierrorunauthorized.ts:
+    id: d0349721e1fb
+    last_write_checksum: sha1:48cb92054ceeb786423cc3f54c8613804df22c8b
+    pristine_git_object: 6d75e094769da3e75179a7ab13699ecce860c18c
+  src/models/apiresponse.ts:
+    id: d975cab730c7
+    last_write_checksum: sha1:00c9768ae767db890ff1d52b414d47994f90e462
+    pristine_git_object: 603f4bfbfdce5c99eb99f70543f4a419b11c880f
+  src/models/category.ts:
+    id: 7099facb0cf3
+    last_write_checksum: sha1:a7f4257cf598a7f78fa681e40d1438178c9f20d5
+    pristine_git_object: 4f83bf16cb5ba403271f608084eb69374c132043
+  src/models/deleteorderop.ts:
+    id: d4605ee7d742
+    last_write_checksum: sha1:7e6ac832a1c4368ed5713439a123b0835feac50e
+    pristine_git_object: 25fd7d7daebb64d0f8d24f4ee7072e5bddd02af2
+  src/models/deletepetop.ts:
+    id: 3fcd5944614d
+    last_write_checksum: sha1:bbce46fcc20adf1a884250ca2549af6359f93268
+    pristine_git_object: 87c92f942455f40856d60c40ebc8d31fdc08e15b
+  src/models/deleteuserop.ts:
+    id: 2edf282facad
+    last_write_checksum: sha1:65444997c2567245e81a66226dd9d48febebfa54
+    pristine_git_object: 700f529910ffa0d844b54ae0d39fb1323857abad
+  src/models/errors/apierror.ts:
+    id: e2280e075454
+    last_write_checksum: sha1:1a4199dec47757c19b2e88dbd767d7f24ab9522a
+    pristine_git_object: 7e098c1187dbd81288c0d2cd8802dfff25a295bf
+  src/models/errors/httpclienterrors.ts:
+    id: 6948de76af99
+    last_write_checksum: sha1:994ced121c54fecd0af038ccfb7855fbfd3868ec
+    pristine_git_object: b34f612124c797c2a1106b9735708f679a90b74f
+  src/models/errors/sdkvalidationerror.ts:
+    id: fb6b2b49c445
+    last_write_checksum: sha1:ce8bb73a1243f8ea8fa3b71a181e586e29dd02c9
+    pristine_git_object: 7749cf32c29ba2d44124253d9f07fbb1913b89f6
+  src/models/findpetsbystatusop.ts:
+    id: 226613833c8c
+    last_write_checksum: sha1:8cf515ccefb5793f19adeb266a099db0f3d6acf9
+    pristine_git_object: 5c2aeffe51b51a3445ea67a7414757e6fbd6ca3b
+  src/models/findpetsbytagsop.ts:
+    id: d9370e6c0b0e
+    last_write_checksum: sha1:9450e79ca56737a341f05a231c3f13b5c3026b45
+    pristine_git_object: 78a512362141a47d180ccc4b2f396c9c8a587aaa
+  src/models/getinventoryop.ts:
+    id: 079b81fb4446
+    last_write_checksum: sha1:b30b2fc14d38dfc703eec28a6a7ee1ebb156d5cf
+    pristine_git_object: 86897fda6935d0b7e6637f36085ec711ce0bd359
+  src/models/getorderbyidop.ts:
+    id: 706aa73b7769
+    last_write_checksum: sha1:31532bae31314633f1d794068076bb032fa9e91c
+    pristine_git_object: 4ee6066fe7e9b64270e4f1d6ceedd360d0b985b3
+  src/models/getpetbyidop.ts:
+    id: fff3f4ec14c1
+    last_write_checksum: sha1:ce6dbd9fdeb744dc074a66dd7c76e6717511765f
+    pristine_git_object: e398d5e5c9fe6c213cf67db8f87c60869875e045
+  src/models/getuserbynameop.ts:
+    id: 577cb1de5d3e
+    last_write_checksum: sha1:7379c8eda2fdeccc8a4f16821318806a779e59fe
+    pristine_git_object: 00d68ae4ef261eef946242a2f9c39ced6ddd10ee
+  src/models/loginuserop.ts:
+    id: ee7c0fc290c3
+    last_write_checksum: sha1:52c105d1fc044c5471d6d6cd7fc983da680e04b0
+    pristine_git_object: f12c29242065b049653f29f8055fd775bac1b0ce
+  src/models/order.ts:
+    id: 8ebfc9e4c369
+    last_write_checksum: sha1:59d37af71af987e57b035aaaf8f0deabefcb8afc
+    pristine_git_object: 4d7a296ac5c9b3923df0ca5c4d096ace2b2389f8
+  src/models/pet.ts:
+    id: 3ebf7c50ae9e
+    last_write_checksum: sha1:4bcb1a1bdd7150c061bbd4d7692bbe03dc2595ef
+    pristine_git_object: d4f2e501fef226e215d5e69a23c04644086f2f5c
+  src/models/placeorderop.ts:
+    id: 4261f0e4517d
+    last_write_checksum: sha1:327cb4c4775d9a0c2392da91fc08632cb2830e57
+    pristine_git_object: 249a012e07be8230388398d03a7d2c2bdae5e0ff
+  src/models/security.ts:
+    id: d90c6c784ca5
+    last_write_checksum: sha1:66173176b7a95ce382f0d10a8beffce96d0f57df
+    pristine_git_object: a0ef890ff3ca778db88f32e8e11cde4431e808d9
+  src/models/tag.ts:
+    id: 7e9eb633ae53
+    last_write_checksum: sha1:d3f02f081db746baeeb2611dca2aabfd76b14d5f
+    pristine_git_object: 0c00399dfa8ecda1fdaee5cbec663c1837303971
+  src/models/updatepetop.ts:
+    id: c08aafbdb762
+    last_write_checksum: sha1:054a6b5840067e42154b9442cf2d0ae2ba0cdf3a
+    pristine_git_object: e8b13434f48ca89db1e33b6eac17ae69830f75b4
+  src/models/updateuserop.ts:
+    id: fde6ead207a0
+    last_write_checksum: sha1:64f591a2011c9dbc9217e27fb88ef013244969a0
+    pristine_git_object: 34ea5b3fb55fefb04e216991de1708ee7dad90a1
+  src/models/uploadfileop.ts:
+    id: f3a3e42647ac
+    last_write_checksum: sha1:71e15418e5485a2a223d4f25bc45ce4a3994104b
+    pristine_git_object: 24f284e977ca6ad5f666c77a238bb8044f657aa3
+  src/models/user.ts:
+    id: 30400d1cf3c2
+    last_write_checksum: sha1:4d2c930359d929c0a0244d533f23a832a3b29d45
+    pristine_git_object: 4539f35c79461a1162e2d5222309723d89fa1cac
+  src/tool-names.ts:
+    id: a9977280f9eb
+    last_write_checksum: sha1:950bc82e88357404b27cf921cb82f4fa512b84ce
+    pristine_git_object: e817ae024be4749b9ccf81ad616a89602bc77883
+  src/types/async.ts:
+    id: fac8da972f86
+    last_write_checksum: sha1:3ff07b3feaf390ec1aeb18ff938e139c6c4a9585
+    pristine_git_object: 689dba5de50e8769e5f3bb913e3f42a146d15bc1
+  src/types/bigint.ts:
+    id: 3ca6e3280e43
+    last_write_checksum: sha1:58178437a7d38f022b5d9bef691ba5539fad4655
+    pristine_git_object: f32ee5fe6a2dbf82bd2d1ec7c17cd2987bcff1d6
+  src/types/blobs.ts:
+    id: f8ab9b326c86
+    last_write_checksum: sha1:9cc86e0e9420999afb48d53c57d71584be745fd7
+    pristine_git_object: c1cc513af4ca0e96d1525954241592e3f57711bb
+  src/types/enums.ts:
+    id: 4d03ddfe5100
+    last_write_checksum: sha1:384e3fc4bee3f006cd8f39556a44b3508597b8e5
+    pristine_git_object: 6fb6d9109d8a9f27160bdb3a20456a5c3a608a51
+  src/types/fp.ts:
+    id: ae9f0fb8aab6
+    last_write_checksum: sha1:d24994d58f37a1ca106847fcc6d2e976c6f1c093
+    pristine_git_object: ccbe51eac69dfb0da5131f14fd753c4b47c1d527
+  src/types/rfcdate.ts:
+    id: 9eb64906dcd6
+    last_write_checksum: sha1:8e5f382e02fe21c2f2e24deb1b7bbf8cddd3dd16
+    pristine_git_object: c79b3f53a3dd922aa2ace5a4191c8652cf9a8e89
+  src/types/streams.ts:
+    id: f99be9c4bf14
+    last_write_checksum: sha1:cc9ced2dd34a76c3a1bd7784ccda1cc3b37ab9a9
+    pristine_git_object: a0163e7a99cea88f21d0ad4ce3af1c720180ee20
+  tsconfig.json:
+    id: 61ebb9fd6e8c
+    last_write_checksum: sha1:2a1769fabf9e934fa0b118db46d3b66cb500a6b7
+    pristine_git_object: 0ca48942a1b9cd923d614985dfb81f0dc7e1d298
+examples:
+  updatePet:
+    speakeasy-default-update-pet:
+      requestBody:
+        application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value 1>"]}
+      responses:
+        "200":
+          application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": []}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  addPet:
+    speakeasy-default-add-pet:
+      requestBody:
+        application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value 1>", "<value 2>", "<value 3>"]}
+      responses:
+        "200":
+          application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value 1>"]}
+  findPetsByStatus:
+    speakeasy-default-find-pets-by-status:
+      parameters:
+        query:
+          status: "available"
+      responses:
+        "200":
+          application/json: [{"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value 1>", "<value 2>"]}]
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  findPetsByTags:
+    speakeasy-default-find-pets-by-tags:
+      responses:
+        "200":
+          application/json: [{"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": []}]
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  getPetById:
+    speakeasy-default-get-pet-by-id:
+      parameters:
+        path:
+          petId: 311674
+      responses:
+        "200":
+          application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value 1>"]}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  deletePet:
+    speakeasy-default-delete-pet:
+      parameters:
+        path:
+          petId: 818965
+      responses:
+        "200":
+          application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": []}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  uploadFile:
+    speakeasy-default-upload-file:
+      parameters:
+        path:
+          petId: 150516
+      responses:
+        "200":
+          application/json: {}
+  getInventory:
+    speakeasy-default-get-inventory:
+      responses:
+        "200":
+          application/json: {"key": 111959, "key1": 333452, "key2": 973245}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  placeOrder:
+    speakeasy-default-place-order:
+      requestBody:
+        application/json: {"id": 10, "petId": 198772, "quantity": 7, "status": "approved"}
+      responses:
+        "200":
+          application/json: {"id": 10, "petId": 198772, "quantity": 7, "status": "approved"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  getOrderById:
+    speakeasy-default-get-order-by-id:
+      parameters:
+        path:
+          orderId: 728529
+      responses:
+        "200":
+          application/json: {"id": 10, "petId": 198772, "quantity": 7, "status": "approved"}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  deleteOrder:
+    speakeasy-default-delete-order:
+      parameters:
+        path:
+          orderId: 690575
+      responses:
+        "200":
+          application/json: {"id": 10, "petId": 198772, "quantity": 7, "status": "approved"}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  createUser:
+    speakeasy-default-create-user:
+      requestBody:
+        application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+      responses:
+        "200":
+          application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+  createUsersWithListInput:
+    speakeasy-default-create-users-with-list-input:
+      requestBody:
+        application/json: [{"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}]
+      responses:
+        "200":
+          application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+  loginUser:
+    speakeasy-default-login-user:
+      responses:
+        "200":
+          application/json: "<value>"
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  logoutUser: {}
+  getUserByName:
+    speakeasy-default-get-user-by-name:
+      parameters:
+        path:
+          username: "Edyth10"
+      responses:
+        "200":
+          application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  updateUser:
+    speakeasy-default-update-user:
+      parameters:
+        path:
+          username: "Alison.Cassin"
+      requestBody:
+        application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+  deleteUser:
+    speakeasy-default-delete-user:
+      parameters:
+        path:
+          username: "Rita_Schuppe"
+      responses:
+        "200":
+          application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+examplesVersion: 1.0.2
