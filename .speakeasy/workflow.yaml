@@ -13,3 +13,6 @@ targets:
     petstore:
         target: mcp-typescript
         source: petstore-oas
+        publish:
+            npm:
+                token: $npm_token
