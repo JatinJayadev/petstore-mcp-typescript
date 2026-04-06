@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "petstormcp-cliente",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "long_description": "Petstore - OpenAPI 3.1: This is a sample Pet Store Server based on the OpenAPI 3.1 specification.\n\nSome useful links:\n- [OpenAPI Reference](https://www.speakeasy.com/openapi)\n- [The Pet Store repository](https://github.com/swagger-api/swagger-petstore)\n- [The source API definition for the Pet Store](https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml)",
   "author": {

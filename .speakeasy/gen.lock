@@ -5,12 +5,14 @@ management:
   docVersion: 1.0.0
   speakeasyVersion: 1.761.1
   generationVersion: 2.879.6
-  releaseVersion: 0.1.0
-  configChecksum: 6363d0290320d6b5ad1ce1d423e50676
+  releaseVersion: 0.1.1
+  configChecksum: 18a3e07494c7e135bc685acb8b05d17d
+  repoURL: https://github.com/JatinJayadev/petstore-mcp-typescript.git
+  installationURL: https://github.com/JatinJayadev/petstore-mcp-typescript
 persistentEdits:
-  generation_id: 93703566-0956-4424-983e-90009990c32a
-  pristine_commit_hash: 1bebfa0218ba865fc8892d656d23299c124a5452
-  pristine_tree_hash: 89aaf07a2ef4d08d51b51452b0d4a2c562d97450
+  generation_id: 62896e75-cf61-4862-9d8e-19187a6bc492
+  pristine_commit_hash: 5479a67168d861f7f735a76b65bd419958d6b146
+  pristine_tree_hash: 60265b318ab8d6651cf5f3722aa04bc5ea3e1737
 features:
   mcp-typescript:
     additionalDependencies: 0.1.0
@@ -44,12 +46,12 @@ trackedFiles:
     pristine_git_object: 4f9e60a9462fc4def738d60c3aaadf8232ef185f
   manifest.json:
     id: ca642a226869
-    last_write_checksum: sha1:30eaad2bb802cde80049bfa175ddbac190b74af4
-    pristine_git_object: 5aba6eb37f49207aed4560ebc07a7a3d1b5969fb
+    last_write_checksum: sha1:161febc083491ecbec65623ac061b8ffebbbe7d0
+    pristine_git_object: 6ed97e7987877879e130c0f52c6316466482af29
   package.json:
     id: 7030d0b2f71b
-    last_write_checksum: sha1:46112b0fd37fd1ecb70b8d9a7dbf115a18dd557e
-    pristine_git_object: 74750a50cc72847ca05fac4a577fd560f101076f
+    last_write_checksum: sha1:7bcbd38aa65a6daee38194d3b7f21becade80ea5
+    pristine_git_object: 156e0cb294dc83783cb4feb9b73d23a593c7258c
   src/core.ts:
     id: f431fdbcd144
     last_write_checksum: sha1:d6a837f6980c9001ce7bd0c29122310de99d7da3
@@ -136,16 +138,16 @@ trackedFiles:
     pristine_git_object: 9c36bf01332084f735909a71036c3544cc4c7e3a
   src/landing-page.ts:
     id: ef64a6ee46d7
-    last_write_checksum: sha1:d02c291d270bf82dd023557724db291244c1113b
-    pristine_git_object: 191e32ae9e4419bacd0b9723f81cd709776494f6
+    last_write_checksum: sha1:64fbd4dd1a0a812134c236d6b17f9f0693f51107
+    pristine_git_object: c5c0f04a76925b920d94413cb4373c4c4645e975
   src/lib/base64.ts:
     id: "598522066688"
     last_write_checksum: sha1:e9f04a037018040361043104960982f7c22db52d
     pristine_git_object: d4bd8b341290e7a828a171d840bd0b0fff7c7cd7
   src/lib/config.ts:
     id: 320761608fb3
-    last_write_checksum: sha1:c0cb0d7b3da7ed852519f77d161283c645731df5
-    pristine_git_object: 56b8e31b45c017b292fa66ba089cd75e51c36b64
+    last_write_checksum: sha1:bf4e661aaa84eb7737055914a12da6eed0fa31ed
+    pristine_git_object: ff7a3e9bd96809d13ad00fba6c5d37953acce661
   src/lib/dlv.ts:
     id: b1988214835a
     last_write_checksum: sha1:1dd3e3fbb4550c4bf31f5ef997faff355d6f3250
@@ -240,8 +242,8 @@ trackedFiles:
     pristine_git_object: 36adaaf99dd12a7354e25ceae2afa21f3826d124
   src/mcp-server/mcp-server.ts:
     id: aabbc4ab07c1
-    last_write_checksum: sha1:567efe3b470557548f6eacb999337311cac075d7
-    pristine_git_object: 62f0e4dc8a591d529f7e4400881c5f906504926b
+    last_write_checksum: sha1:73c34040d2f3587c16e256ba3a6ce8a0bc63e508
+    pristine_git_object: 30665176b0430909b671cfb7dec33f46505dc1ff
   src/mcp-server/prompts.ts:
     id: 26f3d73cbf31
     last_write_checksum: sha1:9c9dc5a38791828fbb95a80bc24ecb77133b8f38
@@ -256,8 +258,8 @@ trackedFiles:
     pristine_git_object: c25696d4c4f70e081fa5d87ad6891874c509a577
   src/mcp-server/server.ts:
     id: 2784dd48e82a
-    last_write_checksum: sha1:53887db96a48812881c8c6d47ee0b98956eb0651
-    pristine_git_object: ff94bfc7a2d975c4e0e0da0d27230dc242c82125
+    last_write_checksum: sha1:0df648e54c5183902e8ab5e13e712e2883c9cb98
+    pristine_git_object: a1c8a4d432400efa6a7fb5d4888f1269738fd508
   src/mcp-server/shared.ts:
     id: 074e80d4be1e
     last_write_checksum: sha1:19c9034032819a14f15c430de4350c8aba99d725
@@ -674,3 +676,41 @@ examples:
         "404":
           application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
 examplesVersion: 1.0.2
+releaseNotes: |
+  ## Mcp-typescript SDK Changes:
+  * `Petstore.pets.update()`: **Added**
+  * `Petstore.pets.add()`: **Added**
+  * `Petstore.pets.findByStatus()`: **Added**
+  * `Petstore.pets.findByTags()`: **Added**
+  * `Petstore.pets.getById()`: **Added**
+  * `Petstore.pets.delete()`: **Added**
+  * `Petstore.pets.uploadImage()`: **Added**
+  * `Petstore.stores.getInventory()`: **Added**
+  * `Petstore.stores.orders.place()`: **Added**
+  * `Petstore.stores.orders.getById()`: **Added**
+  * `Petstore.store.orders.delete()`: **Added**
+  * `Petstore.users.create()`: **Added**
+  * `Petstore.users.createWithList()`: **Added**
+  * `Petstore.users.login()`: **Added**
+  * `Petstore.users.logout()`: **Added**
+  * `Petstore.users.getByName()`: **Added**
+  * `Petstore.users.update()`: **Added**
+  * `Petstore.users.delete()`: **Added**
+  * `Petstore.pet.updatePet()`: **Removed** (Breaking ⚠️)
+  * `Petstore.pet.addPet()`: **Removed** (Breaking ⚠️)
+  * `Petstore.pet.findPetsByStatus()`: **Removed** (Breaking ⚠️)
+  * `Petstore.pet.findPetsByTags()`: **Removed** (Breaking ⚠️)
+  * `Petstore.pet.getPetById()`: **Removed** (Breaking ⚠️)
+  * `Petstore.pet.deletePet()`: **Removed** (Breaking ⚠️)
+  * `Petstore.pet.uploadFile()`: **Removed** (Breaking ⚠️)
+  * `Petstore.store.getInventory()`: **Removed** (Breaking ⚠️)
+  * `Petstore.store.placeOrder()`: **Removed** (Breaking ⚠️)
+  * `Petstore.store.getOrderById()`: **Removed** (Breaking ⚠️)
+  * `Petstore.store.deleteOrder()`: **Removed** (Breaking ⚠️)
+  * `Petstore.user.createUser()`: **Removed** (Breaking ⚠️)
+  * `Petstore.user.createUsersWithListInput()`: **Removed** (Breaking ⚠️)
+  * `Petstore.user.loginUser()`: **Removed** (Breaking ⚠️)
+  * `Petstore.user.logoutUser()`: **Removed** (Breaking ⚠️)
+  * `Petstore.user.getUserByName()`: **Removed** (Breaking ⚠️)
+  * `Petstore.user.updateUser()`: **Removed** (Breaking ⚠️)
+  * `Petstore.user.deleteUser()`: **Removed** (Breaking ⚠️)
